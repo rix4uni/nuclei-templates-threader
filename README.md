@@ -10,7 +10,7 @@ cd nuclei-templates-threader
 python3 nuclei-templates-threader.py -d ~/nuclei-templates -t 50
 nuclei -validate ~/nuclei-templates
 cp -r ~/nuclei-templates ~/custom-nuclei-templates
-rm -rf ~/nuclei-templates && ~/nuclei --update-templates
+rm -rf ~/nuclei-templates && nuclei --update-templates
 ```
 # Usage
 ```
