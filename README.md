@@ -8,6 +8,7 @@ git clone https://github.com/rix4uni/nuclei-templates-threader.git
 cd nuclei-templates-threader
 
 python3 nuclei-templates-threader.py -d ~/nuclei-templates -t 50
+nuclei -validate ~/nuclei-templates
 cp -r ~/nuclei-templates ~/custom-nuclei-templates
 rm -rf ~/nuclei-templates && ~/nuclei --update-templates
 ```
